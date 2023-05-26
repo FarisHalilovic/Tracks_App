@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#genre-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#search-btn:hover {
+  background-color: #45a049;
+}
+
+#tracks-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#tracks-table th,
+#tracks-table td {
+  padding: 12px 15px;
+}
+
+#tracks-table th {
+  background-color: #4caf50;
+  color: white;
+  text-align: left;
+}
+
+#tracks-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tracks-table tbody tr:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+#tracks-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+#tracks-table td:last-child {
+  text-align: center;
+}
+
+#tracks-table img {
+  width: 60px;
+  height: 60px;
+}
+
+#tracks-table a {
+  text-decoration: none;
+  color: #333;
+}
+
+#tracks-table a:hover {
+  text-decoration: underline;
+}
