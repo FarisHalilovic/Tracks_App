@@ -31,8 +31,10 @@ function searchTracks() {
   const genreInput = document.getElementById("genre-input");
   const genre = genreInput.value.trim();
 
+ const params = new URLSearchParams({ q: genre }).toString();
+
   if (genre) {
-    const url = `${baseURL}/tracks/${encodeURIComponent(genre)}`;
+    const url = `${baseURL}/api/tracks?${params}`;
     fetch(url)
       .then((response) => response.json())
       .then((tracks) => {
