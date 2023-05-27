@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:8080";
+const baseURL = "https://server-5fjjz6ugna-ue.a.run.app";
 
 function createTableRow(track) {
   const row = document.createElement("tr");
